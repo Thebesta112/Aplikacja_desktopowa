@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="293.0" layoutY="100.0" prefHeight="41.0" prefWidth="378.0" text="Ile gołębiów cie uniesie?" textAlignment="CENTER" textFill="#9a9a9a" textOverrun="CLIP">
+         <font>
+            <Font name="Georgia" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="112.0" fitWidth="186.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@golebie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="200.0" layoutX="186.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@golebie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="200.0" layoutX="560.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@golebie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="200.0" layoutX="373.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@golebie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="186.0" layoutX="747.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@golebie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@golebie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="733.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@golebie.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="200.0" layoutY="162.0" prefHeight="28.0" prefWidth="74.0" text="Płeć: ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="225.0" prefHeight="30.0" prefWidth="64.0" text="Waga:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="280.0" prefHeight="30.0" prefWidth="74.0" text="Wzrost:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="300.0" layoutY="169.0" mnemonicParsing="false" text="M" />
+      <CheckBox layoutX="352.0" layoutY="169.0" mnemonicParsing="false" text="K" />
+      <Slider cache="true" layoutX="296.0" layoutY="223.0" majorTickUnit="40.0" max="220.0" minorTickCount="0" mouseTransparent="true" nodeOrientation="LEFT_TO_RIGHT" showTickLabels="true" value="1.0" />
+      <Slider layoutX="293.0" layoutY="279.0" max="200.0" minorTickCount="5" prefHeight="33.0" prefWidth="186.0" showTickLabels="true" />
+      <Label layoutX="47.0" layoutY="314.0" prefHeight="30.0" prefWidth="125.0" text="Budowa ciała:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="172.0" layoutY="403.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="28.0" text="S" />
+      <ImageView fitHeight="167.0" fitWidth="157.0" layoutX="206.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@skinny.jpg" />
+         </image>
+      </ImageView>
+      <RadioButton layoutX="350.0" layoutY="402.0" mnemonicParsing="false" text="M" />
+      <RadioButton layoutX="706.0" layoutY="403.0" mnemonicParsing="false" text="XXL" />
+      <ImageView fitHeight="173.0" fitWidth="132.0" layoutX="767.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@xxl.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="167.0" fitWidth="135.0" layoutX="406.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@medium.jpg" />
+         </image>
+      </ImageView>
+      <RadioButton layoutX="546.0" layoutY="403.0" mnemonicParsing="false" text="L" />
+      <ImageView fitHeight="163.0" fitWidth="110.0" layoutX="587.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@l-man.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="353.0" layoutY="521.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="288.0" text="Sprawdź" />
+   </children>
+</AnchorPane>
